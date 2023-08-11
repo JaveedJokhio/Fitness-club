@@ -1,6 +1,5 @@
 import React from 'react'
 import { Stack, Typography } from '@mui/material'
-import Icon from '../assets/icons/gym.png'
 const BodyPart = ({ item, setBodyPart, bodyPart }) => {
   return (
     <Stack
@@ -24,7 +23,7 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => {
       }}
 
     >
-      <img src={Icon} alt='dumbel' style={{ width: '40px', height: '40px' }} />
+      <img src="https://img.freepik.com/free-photo/gym-with-barbell-floor-sign-that-says-weight_1340-38220.jpg" alt='dumbel' style={{ width: '190px', height: '190px' }} />
       <Typography fontSize='24px' fontWeight='bold' color='#3A1212' textTransform='capitalize'>{item}</Typography>
     </Stack>
   )

@@ -52,14 +52,27 @@ body {
     width: 729px;
     height: 742px;
   }
+  a{
+    text-decoration: none;
+  }
+  .social-icons:hover {
+    cursor: pointer;
+    transition: all ease 0.3s;
+    transform: scale(1.1); /* Increase the size by 10% */
+    transform-origin: center; /* Scale around the center */
+  }
+  .title:hover{
+    color: #000;
+    transition: all ease 1s;
+  }
   
   .hero-banner-img {
     position: absolute;
-    right: 40px;
+    right: 20px;
     top: 0px;
-    width: 700px;
-    height: 900px;
-    margin-top: -330px;
+    width: 777px;
+    height: 721px;
+    margin-top: -302px;
   
   }
   

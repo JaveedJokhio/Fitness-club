@@ -1,6 +1,5 @@
 import React from 'react'
-import { Box,Stack,Typography,Button } from '@mui/material'
-import HeroBannerImg from '../assets/images/banner.png'
+import { Box,Typography,Button } from '@mui/material'
 
 const HeroBanner = () => {
   return (
@@ -24,11 +23,11 @@ const HeroBanner = () => {
         <Typography 
         fontWeight={600}
         color='#ff2625'
-        sx={{opacity:'0.1' ,display:{lg:'block',xs:'none'},fontSize:'200px'}}
+        sx={{opacity:'0.2' ,display:{lg:'block',xs:'none'},fontSize:'70px',mt:'30px'}}
         >
-            Exercise
+            "Once you learn to quit, it becomes a habit" ― Vince Lombardi Jr
         </Typography>
-        <img src={HeroBannerImg}  alt='banner' className='hero-banner-img'/>
+        <img src="https://pngimg.com/uploads/fitness/fitness_PNG45.png"  alt='banner' className='hero-banner-img'/>
     </Box>
   )
 }
